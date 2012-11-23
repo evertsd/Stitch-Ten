@@ -1,0 +1,10 @@
+<h1>Gallery <% @categories.length %></h1>
+<% numbers = ["one", "two", "three", "four"] %>
+<% i = 0 %>
+<% @categories.each do |category| %>
+  <% if i < 4 %>
+	   <%= render :partial => 'panel', :locals => {:number => numbers[i], :title => category.name, :image => category.picture} %>
+     <% i += 1 %>
+  <% end %>
+<% end %>
+  

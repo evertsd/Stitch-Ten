@@ -1,0 +1,7 @@
+<% if image %>
+	<a href="category/<%= title %>" class="panel" id="<%= number %>" style="background-image: url(<%= asset_path image %>);background-size: 100% auto;">
+<% else %>
+	<a class="panel" id="<%= number %>">
+<% end %>
+<h3><%= title.capitalize %></h3>
+</a>
