@@ -7,9 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<div id="wrap">
-    <%= render :partial => 'common/sidebar' %>
-    <%= yield %>
+	<div id="body" style="background-image: url(<%= asset_path 'background.png' %>);
+  background-size: 100% auto;">
+	  <div id="wrap">
+      <%= render :partial => 'common/sidebar' %>
+      <%= yield %>
+    <div>
   </div>
 </body>
 </html>

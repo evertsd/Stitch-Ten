@@ -1,0 +1,10 @@
+<h1><%= @picture.img.gsub!('0', ' ')[0..-5] %></h1>
+<% unless @sale.sold %>
+	<h2 class="green sold">Available</h2>
+<% else %>
+  <h2 class="red sold">Sold Out!</h2>
+<% end %>
+<div class="<%= @category %>-picture-show" style="background-image: url(<%= asset_path @url %>);background-size: 100% auto;">
+<b><p class="<%= @category %>-description">Price: <%= @sale.price != 0.0 ? @sale.price : 'Not yet determined' %></p>
+</b>
+</div>

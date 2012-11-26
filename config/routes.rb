@@ -1,5 +1,8 @@
 StitchTen::Application.routes.draw do
 
+  resources :sales
+  
+  match '/sales/:id' => 'sales#show'
   match '/index' => 'categories#index'
   match '/about' => 'application#about'
   match '/contact' => 'application#contact'
