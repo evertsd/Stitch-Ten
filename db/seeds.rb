@@ -60,6 +60,42 @@ Picture.create([
 },
 { img: "Purple0&0Blue0Spiral.jpg",
   sale_id: 14
+},
+{ img: "Cranberry0Quaker.jpg",
+  sale_id: 15
+},
+{ img: "Fringed0Tan&Gray.jpg",
+  sale_id: 16
+},
+{ img: "Blue0Diamond.jpg",
+  sale_id: 17
+},
+{ img: "Gregarious.jpg",
+  sale_id: 17
+},
+{ img: "Tiger0Eye.jpg",
+  sale_id: 17
+},
+{ img: "Fringed0French.jpg",
+  sale_id: 17
+},
+{ img: "Fluted0Slate.jpg",
+  sale_id: 17
+},
+{ img: "Fringed0Cable.jpg",
+  sale_id: 17
+},
+{ img: "Textured0Edges.jpg",
+  sale_id: 17
+},
+{ img: "Textured0Edges.jpg",
+  sale_id: 17
+},
+{ img: "Criss0Cross.jpg",
+  sale_id: 17
+},
+{ img: "Vertical0Ropes.jpg",
+  sale_id: 17
 }
 
 
@@ -125,6 +161,60 @@ Sale.create([
 },
 { price: 0.00,
   sold: false,
-  category_id: 1
+  category_id: 2
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 2
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 60", Width: 4"'
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 70", Width: 4"'
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 55", Width: 5"'
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 65", Width: 6"'
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 54", Width: 4"'
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 70", Width: 6"'
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 70", Width: 4"'
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 67", Width: 3"'
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 54", Width: 6"'
+},
+{ price: 37.00,
+  sold: false,
+  category_id: 2,
+  description: 'Length: 60", Width: 3"'
 }
 ])

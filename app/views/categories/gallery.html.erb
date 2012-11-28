@@ -1,7 +1,11 @@
 <h1><%= @category.name.capitalize %></h1>
 <div id="gallery_wrap">
 	<% for picture in @pictures %>
-		<% image = picture.sale.category.name + '/' + picture.img %>
-		<a href="/sales/<%= picture.sale_id %>" class="picture" style="background-image: url(<%= asset_path image %>);background-size: 100% auto;"><h3><%= picture.img.gsub!('0', ' ')[0..-5] %></h3></a>
+	  <% if picture && picture.img %>
+  		<% image = picture.sale.category.name + '/' + picture.img %>
+  		<a href="/sales/<%= picture.sale_id %>" class="picture <%= picture.sale.category.name %>" style="background-image: url(<%= asset_path image %>);background-size: 100% auto;">
+        <h3><%= (picture.img.include?('0') ? picture.img.gsub!('0', ' ') : picture.img)[0..-5] %></h3>
+      </a>
+    <% end %>
 	<% end %>
 </div>
