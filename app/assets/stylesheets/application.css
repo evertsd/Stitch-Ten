@@ -187,15 +187,15 @@ div.hats-picture-show{
 div.scarves-picture-show{
 	display:inline-block;
 	position:relative;
-	left:375px;
+	left:30px;
 	height:400px;
 	width:300px;
 }
 
 .scarves-description{
 	position:relative;
-	left:-365px;
-	top:-15px;
+	left:325px;
+	top:-20px;
 	font-size:15px;
 }
 
