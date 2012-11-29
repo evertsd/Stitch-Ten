@@ -13,12 +13,12 @@
  */
 
 body{
-	background:#FFF;
+	background:#A2E3E5;
 }
 
 div#body{
-	height:1080px;
-	width:1600px;
+	height:800px;
+	width:1450px;
 }
 
  #sidebar{
@@ -237,10 +237,24 @@ div.scarves-picture-show{
 
 p{
 	color:#911;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1{
 	color:#911;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	font-family: 'Open Sans', sans-serif;
 }
 
 p a:link{
