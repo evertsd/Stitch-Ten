@@ -89,10 +89,11 @@ div#wrap{
 
 div#gallery_wrap{
 	width:700px;
-	height:560px;
+	height:620px;
 	margin-left:20px;
 	display:inline-block;
 	overflow:auto;
+	border:5px solid #D74;
 }
 
 .panel h3{
