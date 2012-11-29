@@ -13,7 +13,7 @@
  */
 
 body{
-	background:#4DD;
+	background:#FFF;
 }
 
 div#body{
@@ -39,11 +39,11 @@ a{
 }
 
 a:link{
-	color:#A11;
+	color:#911;
 }
 
 a:visited{
-	color:#A11;
+	color:#911;
 }
 
 li.button a{
@@ -53,7 +53,7 @@ li.button a{
 	height:50px;
 	width:150px;
 	background:#999;
-	color:#A11;
+	color:#911;
 	margin-bottom:25px;
 	margin-left:-25px;
 }
@@ -65,7 +65,7 @@ li.button{
 
 #invert a{
 	color:#999;
-	background:#A11;
+	background:#911;
 }
 
 #divider{
@@ -82,10 +82,9 @@ li.button{
 div#wrap{
 	width:750px;
 	margin-left:250px;
-	height:800px;
-	background:#DDD;
+	height:900px;
+	background:none;
 	display:inline-block;
-	opacity:0.8;
 }
 
 div#gallery_wrap{
@@ -94,7 +93,6 @@ div#gallery_wrap{
 	margin-left:20px;
 	display:inline-block;
 	overflow:auto;
-	opacity:1.0;
 }
 
 .panel h3{
@@ -117,22 +115,22 @@ div#gallery_wrap{
 
 #one{
 	top:50px;
-	left:120px;
+	left:50px;
 }
 
 #two{
 	top:50px;
-	left:240px;
+	left:75px;
 }
 
 #three{
-	top:275px;
-	left:120px;
+	top:50px;
+	left:75px;
 }
 
 #four{
-	top:275px;
-	left:240px;
+	top:50px;
+	left:75px;
 }
 
 h1{
@@ -218,6 +216,37 @@ div.scarves-picture-show{
 	font-size:18px;
 	padding-left:3%;
 	padding-right:3%;
-	height:680px;
+	height:650px;
 	overflow:auto;
+}
+
+#links{
+	position:relative;
+	left:250px;
+	bottom:-15px;
+	color:#400;
+}
+
+.link-left{
+	margin-left:50px;
+}
+
+#notify{
+	color:#D74;
+}
+
+p{
+	color:#911;
+}
+
+h1{
+	color:#911;
+}
+
+p a:link{
+	color:#D74;
+}
+
+p a:hover{
+	color:#D74;
 }
