@@ -13,7 +13,8 @@
  */
 
 body{
-	background:#A2E3E5;
+	height:100%;
+	width:100%;
 }
 
 div#body{
@@ -82,15 +83,16 @@ li.button{
 div#wrap{
 	width:750px;
 	margin-left:250px;
-	height:900px;
+	height:800px;
 	background:none;
 	display:inline-block;
 }
 
 div#gallery_wrap{
-	width:700px;
-	height:620px;
-	margin-left:20px;
+	width:650px;
+	height:500px;
+	margin-left:25px;
+	margin-top:50px;
 	display:inline-block;
 	overflow:auto;
 	border:5px solid #D74;
@@ -141,18 +143,18 @@ h1{
 .hats{
 	width:200px;
 	height:150px;
-	margin-left:20px;
+	margin-right:20px;
 }
 
 .scarves{
 	width:150px;
 	height:200px;
-	margin-left:15px;
+	margin-right:12px;
 }
 
 .picture{
 	display:inline-block;
-	margin-top:40px;
+	margin-bottom:15px;
 }
 
 .picture h4{
@@ -217,13 +219,14 @@ div.scarves-picture-show{
 	font-size:18px;
 	padding-left:3%;
 	padding-right:3%;
-	height:650px;
+	height:675px;
+	margin-top:25px;
 	overflow:auto;
 }
 
 #links{
 	position:relative;
-	left:250px;
+	left:215px;
 	bottom:-15px;
 	color:#400;
 }
@@ -264,4 +267,16 @@ p a:link{
 
 p a:hover{
 	color:#D74;
+}
+
+.right-edge{
+	margin-right:0px;
+}
+
+.gallery-link{
+	margin-left:50px;
+	font-size:18px;
+	position:relative;
+	left:100px;
+	top:20px;
 }

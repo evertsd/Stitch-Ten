@@ -4,6 +4,7 @@ class CategoriesController < ApplicationController
   end
 
   def gallery
+    @categories = Category.all
   	@category = Category.where("name = ?", params[:name]).first
   	@sales = @category.sales
   	@pictures = []

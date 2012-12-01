@@ -1,11 +1,16 @@
-<h1><%= @category.name.capitalize %></h1>
+<%= render :partial => 'links' %>
 <div id="gallery_wrap">
+  <% index = 1 %>
 	<% for picture in @pictures %>
 	  <% if picture && picture.img %>
   		<% image = picture.sale.category.name + '/' + picture.img %>
-  		<a href="/sales/<%= picture.sale_id %>" class="picture <%= picture.sale.category.name %>" style="background-image: url(<%= asset_path image %>);background-size: 100% auto;">
-        <h4><%= (picture.img.include?('0') ? picture.img.gsub!('0', ' ') : picture.img)[0..-5] %></h4>
-      </a>
+      <% bool = @category.is_edge?(index) %>
+      <% if bool %>
+  		  <a href="/sales/<%= picture.sale_id %>" class="picture right-edge <%= picture.sale.category.name %>" style="background-image: url(<%= asset_path image %>);background-size: 100% auto;"></a>
+      <% else %>
+        <a href="/sales/<%= picture.sale_id %>" class="picture <%= picture.sale.category.name %>" style="background-image: url(<%= asset_path image %>);background-size: 100% auto;"></a>
+      <% end %>
+      <% index += 1 %>
     <% end %>
 	<% end %>
 </div>

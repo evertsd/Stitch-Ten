@@ -1,5 +1,6 @@
 ---
-background.png: background-3e9345585546cdb765c093df654a6fbe.png
+background.jpeg: background-cc0716836be77d13e4ab714a8ebbf41d.jpeg
+background.png: background-a769974baecbb28fb4b352f979fe1b7f.png
 hats.jpg: hats-3984fa114fcab2b53e81c9ec9f4772f9.jpg
 hats/B&W0Cabled0Headband.jpg: hats/B&W0Cabled0Headband-8ba12d13f902e155b1e91ed174c5baa3.jpg
 hats/Black0&0Gray.jpg: hats/Black0&0Gray-74b918ae6b9dc069d05109464baf9b46.jpg
@@ -34,4 +35,5 @@ scarves/Textured0Edges.jpg: scarves/Textured0Edges-281885c8bc0922f2104fc7a9c10ad
 scarves/Tiger0Eye.jpg: scarves/Tiger0Eye-3286bac6fcd2070e4f421dd75ef24f5e.jpg
 scarves/Vertical0Ropes.jpg: scarves/Vertical0Ropes-9c0370fed1dcba7bde7d4654702dbda3.jpg
 application.js: application-e9394981bdbfae69621c955bd7e7f673.js
-application.css: application-6894c5bd3dc6eb697cfc41a49eddc0f6.css
+algorithms: algorithms
+application.css: application-c84b814e94e0f8ff10bd357927938374.css
