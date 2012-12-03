@@ -3,9 +3,9 @@ class Category < ActiveRecord::Base
   has_many :sales
 
   	def is_edge?(index)
-		if name == 'hats'
+		if name == 'hats' || name == 'mittens'
 			return index%3 == 0
-		elsif name == 'scarves'
+		elsif name == 'scarves' || name == 'baby'
 			return index%4 == 0
 		end
 	end

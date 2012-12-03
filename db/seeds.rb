@@ -7,13 +7,13 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Category.create([
 
-{ name: "hats", 
-  picture: "hats.jpg"
-},
+{ name: "hats" },
 
-{ name: "scarves",
-  picture: "scarves.jpg"
-}
+{ name: "scarves" },
+
+{ name: "mittens" },
+
+{ name: "baby" }
 
 ])	
 
@@ -71,31 +71,85 @@ Picture.create([
   sale_id: 17
 },
 { img: "Gregarious.jpg",
-  sale_id: 17
+  sale_id: 18
 },
 { img: "Tiger0Eye.jpg",
-  sale_id: 17
+  sale_id: 19
 },
 { img: "Fringed0French.jpg",
-  sale_id: 17
+  sale_id: 20
 },
 { img: "Fluted0Slate.jpg",
-  sale_id: 17
+  sale_id: 21
 },
 { img: "Fringed0Cable.jpg",
-  sale_id: 17
+  sale_id: 22
 },
 { img: "Textured0Edges.jpg",
-  sale_id: 17
+  sale_id: 23
 },
 { img: "Textured0Edges.jpg",
-  sale_id: 17
+  sale_id: 24
 },
 { img: "Criss0Cross.jpg",
-  sale_id: 17
+  sale_id: 25
 },
 { img: "Vertical0Ropes.jpg",
-  sale_id: 17
+  sale_id: 26
+},
+{ img: "Asymmetrical0Crocheted.jpg",
+  sale_id: 27
+},
+{ img: "Chunky0Cream0Ribbed.jpg",
+  sale_id: 28
+},
+{ img: "Chunky0Cream0Ribbed0Open.jpg",
+  sale_id: 29
+},
+{ img: "Chunky0Ribbed0Flip0Top.jpg",
+  sale_id: 30
+},
+{ img: "Chunky0Ribbed0Open.jpg",
+  sale_id: 31
+},
+{ img: "Cozy0Crimpy.jpg",
+  sale_id: 32
+},
+{ img: "Baby0Bib0&0Washcloth.jpg",
+  sale_id: 33 
+},
+{ img: "Baby0Cap0with0Ear0Flaps.jpg",
+  sale_id: 34 
+},
+{ img: "Fuzzy0Pastel0Peach0Beanie.jpg",
+  sale_id: 35 
+},
+{ img: "Fuzzy0Tutti0Frutti0Beanie.jpg",
+  sale_id: 36 
+},
+{ img: "Fuzzy0Tutti0Frutti0Brim.jpg",
+  sale_id: 37 
+},
+{ img: "Cardigan0Booties0&0Cap.jpg",
+  sale_id: 38 
+},
+{ img: "Tossled0Cap.jpg",
+  sale_id: 38 
+},
+{ img: "Button0Up0Cardigan.jpg",
+  sale_id: 38 
+},
+{ img: "Purl0Baby0Blanket.jpg",
+  sale_id: 39 
+},
+{ img: "Cardigan0Variegated.jpg",
+  sale_id: 40
+},
+{ img: "One0Button0Hoodie.jpg",
+  sale_id: 41
+},
+{ img: "Wide0Brimmed0Baby0Beanie.jpg",
+  sale_id: 41
 }
 
 
@@ -216,5 +270,65 @@ Sale.create([
   sold: false,
   category_id: 2,
   description: 'Length: 60", Width: 3"'
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 3
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 3
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 3
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 3
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 3
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 3
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 4
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 4
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 4
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 4
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 4
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 4
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 4
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 4
+},
+{ price: 0.00,
+  sold: false,
+  category_id: 4
 }
 ])

@@ -1,7 +1,13 @@
 ---
+baby/Baby0Bib0&0Washcloth.jpg: baby/Baby0Bib0&0Washcloth-3635de17668d10f32b19ba835f67b7ea.jpg
+baby/Baby0Cap0with0Ear0Flaps.jpg: baby/Baby0Cap0with0Ear0Flaps-cae37ced374d9dc48ff99f10455ce1b4.jpg
+baby/Button0Up0Cardigan.jpg: baby/Button0Up0Cardigan-be9bcfb3b35f25542927b82eb1d50e74.jpg
+baby/Cardigan0Booties0&0Cap.jpg: baby/Cardigan0Booties0&0Cap-a153a50428b9774e8328f1f546d1c778.jpg
+baby/Fuzzy0Pastel0Peach0Beanie.jpg: baby/Fuzzy0Pastel0Peach0Beanie-6d8108b68186ce895a30548d4db15822.jpg
+baby/Fuzzy0Tutti0Frutti0Beanie.jpg: baby/Fuzzy0Tutti0Frutti0Beanie-acefb5d58130ae479d0ffd4a60aac946.jpg
+baby/Fuzzy0Tutti0Frutti0Brim.jpg: baby/Fuzzy0Tutti0Frutti0Brim-f9f785dc21dcc25ac9522b5821c29637.jpg
+baby/Tossled0Cap.jpg: baby/Tossled0Cap-0ad46174412eab44b62f52ec3deff7f0.jpg
 background.jpeg: background-cc0716836be77d13e4ab714a8ebbf41d.jpeg
-background.png: background-a769974baecbb28fb4b352f979fe1b7f.png
-hats.jpg: hats-3984fa114fcab2b53e81c9ec9f4772f9.jpg
 hats/B&W0Cabled0Headband.jpg: hats/B&W0Cabled0Headband-8ba12d13f902e155b1e91ed174c5baa3.jpg
 hats/Black0&0Gray.jpg: hats/Black0&0Gray-74b918ae6b9dc069d05109464baf9b46.jpg
 hats/Blue0Cabled0Slouchy.jpg: hats/Blue0Cabled0Slouchy-15278ee0e40ba0a29d791a3a90886fe7.jpg
@@ -18,8 +24,12 @@ hats/Rust0Brown0Cabled.jpg: hats/Rust0Brown0Cabled-613ed4cdd8f9b4928c4f772099e7e
 hats/Tan0Textured0Rim.jpg: hats/Tan0Textured0Rim-ec808f5c2922e6ec37795bcf79c431a5.jpg
 hats/Tossled0Toddler.jpg: hats/Tossled0Toddler-3b933d01ad54d085eb0c2319d956e92a.jpg
 hats/Wheat0Ribbed0Knit.jpg: hats/Wheat0Ribbed0Knit-69b4b76438e274c1391f7ce0de78dc47.jpg
-rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
-scarves.jpg: scarves-d2a5a9cc27565bc261def0275182802f.jpg
+mittens/Asymmetrical0Crocheted.jpg: mittens/Asymmetrical0Crocheted-e8bd344bd3c0d47a9b23c101149da7fd.jpg
+mittens/Chunky0Cream0Ribbed.jpg: mittens/Chunky0Cream0Ribbed-c3590215599e858eb09c4d2337ef62b1.jpg
+mittens/Chunky0Cream0Ribbed0Open.jpg: mittens/Chunky0Cream0Ribbed0Open-2b52f59abeaa6e9a912f569e92a5f4c5.jpg
+mittens/Chunky0Ribbed0Flip0Top.jpg: mittens/Chunky0Ribbed0Flip0Top-e6b1d5e22a5b2b16a59010f10033aaf9.jpg
+mittens/Chunky0Ribbed0Open.jpg: mittens/Chunky0Ribbed0Open-c47627850e2b3783712bbc2400915658.jpg
+mittens/Cozy0Crimpy.jpg: mittens/Cozy0Crimpy-a9d2dd9cba5f52e71e0c5b6288ee49b9.jpg
 scarves/Blue0Diamond.jpg: scarves/Blue0Diamond-ee88a3e36aee5038538c9557f9ea477d.jpg
 scarves/Cranberry0Quaker.jpg: scarves/Cranberry0Quaker-d2a5a9cc27565bc261def0275182802f.jpg
 scarves/Cream0Fringed.jpg: scarves/Cream0Fringed-38e473e0a0fab6d0553df25999e11d85.jpg
@@ -36,4 +46,4 @@ scarves/Tiger0Eye.jpg: scarves/Tiger0Eye-3286bac6fcd2070e4f421dd75ef24f5e.jpg
 scarves/Vertical0Ropes.jpg: scarves/Vertical0Ropes-9c0370fed1dcba7bde7d4654702dbda3.jpg
 application.js: application-e9394981bdbfae69621c955bd7e7f673.js
 algorithms: algorithms
-application.css: application-c84b814e94e0f8ff10bd357927938374.css
+application.css: application-2d3b7acd55580e75a4eb7010e3db8c8c.css

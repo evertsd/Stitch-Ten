@@ -152,6 +152,18 @@ h1{
 	margin-right:12px;
 }
 
+.mittens{
+	width:200px;
+	height:150px;
+	margin-right:20px;
+}
+
+.baby{
+	width:150px;
+	height:200px;
+	margin-right:12px;
+}
+
 .picture{
 	display:inline-block;
 	margin-bottom:15px;
@@ -169,36 +181,6 @@ h1{
 
 .scarves h4{
 	width:164px;
-}
-
-div.hats-picture-show{
-	display:inline-block;
-	position:relative;
-	left:325px;
-	height:300px;
-	width:400px;
-}
-
-.hats-description{
-	position:relative;
-	left:-315px;
-	top:-15px;
-	font-size:16px;
-}
-
-div.scarves-picture-show{
-	display:inline-block;
-	position:relative;
-	left:20px;
-	height:400px;
-	width:300px;
-}
-
-.scarves-description{
-	position:relative;
-	left:325px;
-	top:-20px;
-	font-size:15px;
 }
 
 .green{
@@ -279,4 +261,64 @@ p a:hover{
 	position:relative;
 	left:100px;
 	top:20px;
+}
+
+div.hats-picture-show{
+	display:inline-block;
+	position:relative;
+	left:325px;
+	height:300px;
+	width:400px;
+}
+
+.hats-description{
+	position:relative;
+	left:-315px;
+	top:-15px;
+	font-size:16px;
+}
+
+div.mittens-picture-show{
+	display:inline-block;
+	position:relative;
+	left:325px;
+	height:300px;
+	width:400px;
+}
+
+.mittens-description{
+	position:relative;
+	left:-315px;
+	top:-15px;
+	font-size:16px;
+}
+
+div.scarves-picture-show{
+	display:inline-block;
+	position:relative;
+	left:20px;
+	height:400px;
+	width:300px;
+}
+
+.scarves-description{
+	position:relative;
+	left:325px;
+	top:-20px;
+	font-size:15px;
+}
+
+div.baby-picture-show{
+	display:inline-block;
+	position:relative;
+	left:20px;
+	height:400px;
+	width:300px;
+}
+
+.baby-description{
+	position:relative;
+	left:325px;
+	top:-20px;
+	font-size:15px;
 }
