@@ -94,7 +94,7 @@ div#gallery_wrap{
 	margin-left:25px;
 	margin-top:50px;
 	display:inline-block;
-	overflow:auto;
+	overflow:auto hidden;
 	border:5px solid #D74;
 }
 
